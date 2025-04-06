@@ -1,0 +1,112 @@
+.description {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.compétances {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenu_align {
+  display: flex;
+  justify-content: center;
+}
+
+.contenu_compétances {
+  background-color: black;
+  height: 550px;
+  width: 750px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.listeslogo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 60px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.listeslogo.reduit {
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  justify-content: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  background-color: antiquewhite;
+  border-radius: 12%;
+  padding: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logoa {
+  height: 50px;
+  width: 50px;
+  background-color: antiquewhite;
+  border-radius: 12%;
+  padding: 4px;
+  grid-column-start: 3;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logoa.F {
+  height: 60px;
+  width: 40px;
+}
+
+.logo:hover, .logoa:hover {
+  transform: scale(1.2);
+}
+
+.titreCadre {
+  text-align: center;
+}
+
+.titleLogo {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  color: antiquewhite;
+  border-radius: 10px;
+  font-size: large;
+}
+
+/* Tooltips */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: max-content;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
