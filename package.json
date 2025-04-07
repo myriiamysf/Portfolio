@@ -11,8 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --branch=gh-pages --message 'Deploy update' --force"
-
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "lucide-react": "^0.483.0",
