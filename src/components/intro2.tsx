@@ -16,7 +16,8 @@ const Intro2 : React.FC = () => {
                 </div>
                 <div className="text">
                     <div>
-                        <h1 className="titre">Bonjour et bienvenue _______</h1>
+                        <h1 className="titre">Bonjour et bienvenue </h1>
+                        <h1>_______</h1>
                         <h2>Mériam Youssef -  Développeuse fullstack</h2>
                         <p>Ceci est mon tout premier portfolio, fabriqué en ReactJS. J'ai 20 ans et cela fait maintenant plusieurs mois que j'ai commencé le développement informatique. Aavant Septembre 2024, je n'avais aucune idée de la concistance de ce domaine. Maintenant, je suis convaincu qu'il s'agit de ma voie. Ce n'est pas toujours simple, mais je persiste, car j'ai la sincère volonté d'acquérir des compétances en dev.  </p>
                         <div className="reveal-container">
