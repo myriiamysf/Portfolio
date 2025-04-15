@@ -2,20 +2,20 @@ import React from "react";
 import "../styles/MysticRoller.css";
 
 const logos = [
-  { src: "lgoTS.png", name: "Typescript" },
-  { src: "logoJS.png", name: "Javascript" },
-  { src: "lgoPython.png", name: "Python" },
-  { src: "logoGolang.png", name: "Golang" },
-  { src: "logoHTML.png", name: "HTML" },
-  { src: "logoCSS.png", name: "CSS" },
-  { src: "logoMySQL.png", name: "MySQL" },
-  { src: "logoPostgre.png", name: "PostgreSQL" },
-  { src: "logoReact.png", name: "ReactJS" },
-  { src: "logoNest.png", name: "NestJS" },
-  { src: "logoNotion.png", name: "Nation" },
-  { src: "logoFigma.png", name: "Figma" },
-  { src: "lgoMicrosoftAzur.png", name: "Microsoft Azur" },
-  { src: "lgoArduino.png", name: "Arduino" },
+  { src: "public/lgoTS.png", name: "Typescript" },
+  { src: "public/logoJS.png", name: "Javascript" },
+  { src: "public/lgoPython.png", name: "Python" },
+  { src: "public/logoGolang.png", name: "Golang" },
+  { src: "public/logoHTML.png", name: "HTML" },
+  { src: "public/logoCSS.png", name: "CSS" },
+  { src: "public/logoMySQL.png", name: "MySQL" },
+  { src: "public/logoPostgre.png", name: "PostgreSQL" },
+  { src: "public/logoReact.png", name: "ReactJS" },
+  { src: "public/logoNest.png", name: "NestJS" },
+  { src: "public/logoNotion.png", name: "Nation" },
+  { src: "public/logoFigma.png", name: "Figma" },
+  { src: "public/lgoMicrosoftAzur.png", name: "Microsoft Azur" },
+  { src: "public/lgoArduino.png", name: "Arduino" },
 ];
 
 const MysticRoller: React.FC = () => {

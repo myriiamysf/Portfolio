@@ -4,24 +4,24 @@ import "../styles/ProjectGrid2.css";
 const projects = [
   {
     id: 1,
-    title: "Bubble Trouble",
-    description: "deux algorithmes de tri : le tri à bulle, et le tri en python.",
-    image: "pythonMaths.webp",
-    link: "https://github.com/myriiamysf/Projet-/tree/main/Bubble_Trouble/group-1041054-main",
+    title: "Prime Generator",
+    description: "Génération d'un pdf à partir d'une image, d'une prime, et d'un nom.",
+    image: "ShanksP.png",
+    link: "https://github.com/myriiamysf/Projet-/tree/main/PrimeGenerator",
   },
   {
     id: 2,
-    title: "ThermOs",
-    description: "Un projet de système embarqué avec le langage d'Arduino, pour configurer des ampoules, et des capteurs.",
-    image: "Arduino.webp",
-    link: "https://github.com/myriiamysf/Projet-/tree/main/ThermOS/group-1044408-main",
+    title: "My RPG",
+    description: "Petit jeu de rôle basé sur le monde de Zelda.",
+    image: "myrpg.png",
+    link: "https://github.com/myriiamysf/Projet-/tree/main/My_RPG",
   },
   {
     id: 3,
-    title: "Task Forge",
-    description: "Une API CRUD avec NestJS, à partir d'une base de donnée MariaDB, avec 5 tables et des foreign key.",
-    image: "taskForge.png",
-    link: "https://github.com/myriiamysf/Projet-/tree/main/TaskForge/group-1044885-main",
+    title: "Hack the source",
+    description: "Projet open source d'un jeu abandonné il y a 13 ans. Ajout d'un menu démarrage.",
+    image: "opensource.png",
+    link: "https://github.com/myriiamysf/Projet-/tree/main/Hack_The_Source",
   },
 ];
 
