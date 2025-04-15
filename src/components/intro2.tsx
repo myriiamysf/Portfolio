@@ -8,10 +8,10 @@ const Intro2 : React.FC = () => {
             <div className="child">
                 <div className="conteneur-contact">
                     <div className="logos">
-                        <div className="tooltip"><img src="./images/tel.png" alt="" className="img"></img><span className="tooltiptext">07.68.60.92.75</span></div>
-                        <div className="tooltip"><a href="mailto:meriam84400@gmail.com" target="_blank" className="mon-element"><img src="./images/mail.png" alt="" className="img"></img><span className="tooltiptext">meriam84400@gmail.com</span></a></div>
-                        <div className="tooltip"><a href="https://www.linkedin.com/in/meriam-youssef-33a841332/" target="_blank" className="mon-element"><img src="./images/in.webp" alt="" className="img"></img></a><span className="tooltiptext">Linkedin</span></div>
-                        <div className="tooltip"><a href="https://github.com/myriiamysf" target="_blank" className="mon-element"><img src="./images/git.png" alt="" className="img"></img></a><span className="tooltiptext">Github</span></div>
+                        <div className="tooltip"><img src="tel.png" alt="" className="img"></img><span className="tooltiptext">07.68.60.92.75</span></div>
+                        <div className="tooltip"><a href="mailto:meriam84400@gmail.com" target="_blank" className="mon-element"><img src="mail.png" alt="" className="img"></img><span className="tooltiptext">meriam84400@gmail.com</span></a></div>
+                        <div className="tooltip"><a href="https://www.linkedin.com/in/meriam-youssef-33a841332/" target="_blank" className="mon-element"><img src="in.webp" alt="" className="img"></img></a><span className="tooltiptext">Linkedin</span></div>
+                        <div className="tooltip"><a href="https://github.com/myriiamysf" target="_blank" className="mon-element"><img src="git.png" alt="" className="img"></img></a><span className="tooltiptext">Github</span></div>
                     </div>
                 </div>
                 <div className="text">
