@@ -3,16 +3,16 @@ import "./competances.css";
 
 function SkillsDiv() {
   const outerLogos = [
-    "../nest.PNG",
-    "../react.PNG",
-    "../go.PNG",
-    "../python.PNG",
-    "../postgre.PNG",
+    "nest.PNG",
+    "react.PNG",
+    "go.PNG",
+    "python.PNG",
+    "postgre.PNG",
   ];
   const innerLogos = [
-    "../html.PNG",
-    "../css.PNG",
-    "../ts.PNG",
+    "html.PNG",
+    "css.PNG",
+    "ts.PNG",
   ];
 
   const [angle, setAngle] = useState(0);
