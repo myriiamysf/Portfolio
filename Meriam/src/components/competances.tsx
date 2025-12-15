@@ -3,21 +3,20 @@ import "./competances.css";
 
 function SkillsDiv() {
   const outerLogos = [
-    "/nest.PNG",
-    "/react.PNG",
-    "/go.PNG",
-    "/python.PNG",
-    "/postgre.PNG",
+    "../../public/images/nest.PNG",
+    "../../public/images/react.PNG",
+    "../../public/images/go.PNG",
+    "../../public/images/python.PNG",
+    "../../public/images/postgre.PNG",
   ];
   const innerLogos = [
-    "/html.PNG",
-    "/css.PNG",
-    "/ts.PNG",
+    "../../public/images/html.PNG",
+    "../../public/images/css.PNG",
+    "../../public/images/ts.PNG",
   ];
 
   const [angle, setAngle] = useState(0);
 
-  // Animation simple : on augmente l'angle avec requestAnimationFrame
   useEffect(() => {
     let animationFrame: number;
 
