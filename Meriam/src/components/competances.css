@@ -106,19 +106,17 @@
   color: rgba(171, 171, 171, 0.87);
   border-radius: 17px;
   padding: 1px 12px;
-  margin-right: 12px; /* espacement propre */
+  margin-right: 12px; 
   display: inline-flex;
   align-items: center;
   justify-content: center;
   margin: 12px;
 }
 
-/* pause au hover */
 .ticker:hover .ticker-track {
   animation-play-state: paused;
 }
 
-/* animation smooth */
 @keyframes scroll {
   0% {
     transform: translateX(0);
