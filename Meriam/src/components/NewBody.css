@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     padding-bottom: 200px; 
+    margin-top: -70px;
 }
 
 .LeftDiv{
@@ -91,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 .logos2:hover,
 .logos1:hover {
     transform: scale(1.2);
+    border-radius: 50%;
 }
 
 .logos44,
@@ -101,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     width: 75px;
     height: 75px;
+    border-radius: 50%;
 }
 
 .tootltip4,

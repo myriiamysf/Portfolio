@@ -4,11 +4,11 @@
   height: 400px;
   width: 400px;
   animation: spin 20s linear infinite;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
 }
 
 .introDiv {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,10 +17,18 @@
   gap: 50px
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 .whole {
     height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

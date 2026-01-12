@@ -16,7 +16,7 @@ function Body() {
           <div className='projectext'>
             <h2>Mes projets : </h2>
             <div className='sentance'>
-              <p className='insentance'>Voici quelque projets que j'ai pu développer, seule en équipe, durtant ma première année en développement Informatique</p>
+              <p className='insentance'>Voici quelque projets que j'ai pu développer, seule ou en équipe, durant ma première année en développement Informatique</p>
             </div>
           </div>
           <div className='projectdiv'>
