@@ -67,17 +67,17 @@ function SkillsDiv() {
       </div>
       <div className="rightDiv">
         <h2 className="parcours">Parcours académique</h2>
-        <p>Après l'obtention de mon bac en 2023, je ne savais pas encore quoi faire de ma vie. La voie de l'informartique était une voie 
-          qui ne m'avait pas traversé l'esprit. Je n'y conaissais aucune notion. Rentrée 2023, je me lance dans une licence de langue par dépit.
-          D'un esprit philosophique, j'y voyais sans doute une manière d'acquérire quelque compétances. 
+        <p>Après l'obtention de mon bac en 2023, je ne savais pas encore quoi faire de ma vie. La voie de l'informatique était une voie 
+          qui ne m'avait pas traversé l'esprit. Je n'y connaissais aucune notion. Rentrée 2023, je me lance dans une licence de langue par dépit.
+          D'un esprit philosophique, j'y voyais sans doute une manière d'acquérir quelques compétences. 
           <br/>
-          <br/>J'avais certainement besoins de développer un peu plus mon esprit mathématique. C'est alors que je me suis rappelée des heures
-          passés sur l'ordinateur, à créer et apprendre. Bien qu'il ne s'agissait pas d'informatique au sens réel, j'aimais manipuler les écrans.
+          <br/>J'avais certainement besoin de développer un peu plus mon esprit mathématique. C'est alors que je me suis rappelée des heures
+          passées sur l'ordinateur, à créer et apprendre. Bien qu'il ne s'agissait pas d'informatique au sens strict, j'aimais manipuler les écrans.
           C'est là que ça a commencé à devenir une option pour moi. 
           <br/>
           <br/> C'est alors que je me suis inscrite à l'Etna pour la rentrée 2024. J'ai rapidement compris que c'était ma voie. Tout au long de l'année,
-          j'ai créé des projets et découverts de nombreuses technos. 
-          <p className="hate">Désormais je n'ai qu'une hâte : acquérire encore plus de compétances, et m'expertiser dans un domaine.</p>
+          j'ai créé des projets et découvert de nombreuses technos. 
+          <p className="hate">Désormais, je n'ai qu'une hâte : acquérir encore plus de compétances, et me spécialiser dans un domaine.</p>
         </p>
         <img src="flowers.png" className="littleflowers"/>
         <h4>Technos :</h4>
