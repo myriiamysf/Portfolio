@@ -12,7 +12,7 @@ function Home() {
           <TextAnimation/>
         </div>
         <img src="flower.png" alt="flower" className='introLogo'/>
-         <button onClick={() => navigate("/body")}>Commencer</button>
+         <button onClick={() => navigate("/body")} className='commencer'>Commencer</button>
       </div>
     </div>
   );

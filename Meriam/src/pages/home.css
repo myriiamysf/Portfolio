@@ -23,7 +23,9 @@
   box-sizing: border-box;
 }
 
-
+.commencer{
+  color : white
+}
 
 .whole {
     height: 100vh;
