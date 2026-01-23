@@ -39,7 +39,18 @@ function NewBody() {
                             <a href='https://github.com/myriiamysf' target="_blank" rel="noopener noreferrer"><img className='logos4' src="githubX.PNG"/></a>
                             <span className='tootltip4'>Github</span>
                         </div>
-                        <div className='lastsentance'><a  href="/CV_Mériam_YOUSSEF.pdf" download><h2 className='lastsen'>Téléchargez mon <span className='decouvrez'>CV</span></h2></a></div>
+                        <div className='lastsentance'>
+                            <button
+                              onClick={() => {
+                                const link = document.createElement("a");
+                                link.href = "/CV_Mériam_YOUSSEF.pdf";
+                                link.download = "CV_Mériam_YOUSSEF.pdf";
+                                link.click();
+                              }}
+                            >
+                              Télécharger mon <span className='CV'>CV</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
