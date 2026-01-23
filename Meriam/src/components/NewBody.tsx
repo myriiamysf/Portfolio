@@ -40,16 +40,9 @@ function NewBody() {
                             <span className='tootltip4'>Github</span>
                         </div>
                         <div className='lastsentance'>
-                            <button
-                              onClick={() => {
-                                const link = document.createElement("a");
-                                link.href = "/CV_Mériam_YOUSSEF.pdf";
-                                link.download = "CV_Mériam_YOUSSEF.pdf";
-                                link.click();
-                              }}
-                            >
-                              Télécharger mon <span className='CV'>CV</span>
-                            </button>
+                            <a href="/CV_Mériam_YOUSSEF.pdf" download>
+                              <button>Télécharger mon <span className='CV'>CV</span></button>
+                            </a>
                         </div>
                     </div>
                 </div>
