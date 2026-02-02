@@ -77,7 +77,7 @@ function SkillsDiv() {
           <br/>
           <br/> C'est alors que je me suis inscrite à l'Etna pour la rentrée 2024. J'ai rapidement compris que c'était ma voie. Tout au long de l'année,
           j'ai créé des projets et découvert de nombreuses technos. 
-          <p className="hate">Désormais, je n'ai qu'une hâte : acquérir encore plus de compétances, et me spécialiser dans un domaine.</p>
+          <p className="hate">Désormais, je n'ai qu'une hâte : acquérir encore plus de compétences, et me spécialiser dans un domaine.</p>
         </p>
         <img src="flowers.png" className="littleflowers"/>
         <h4>Technos :</h4>
